@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登陆界面</title>
+		<style>
+			body{
+				background-image:url(img/back.jpg);
+				background-size:100% 100%;
+				background-attachment:fixed;
+			}
+			.tabl{
+				display:flex;
+				align-items:center;
+				justify-content:center;
+				height:85vh;
+			}
+			table{
+				color:white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="tabl">
+			<table border="1px">
+				<tr>
+					<th></th>
+					<th>木盒</th>
+				</tr>
+				<tr>
+					<td>用户名：</td>
+					<td><input type="text" alt="name" value="your name"></td>
+				</tr>
+				<tr>
+					<td>密码：</td>
+					<td><input type="password" alt="pass"></td>
+				</tr>
+				<tr>
+					<td>登录ID：</td>
+					<td><input type="radio" name="id" value="school">学校&nbsp;&nbsp;&nbsp;<input type="radio" name="id" value="outschool">校外</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<a href="web/web.html"><input type="button" name="ok" value="登录"></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

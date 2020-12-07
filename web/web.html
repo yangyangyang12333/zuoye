@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>相册</title>
+		<link rel="stylesheet" href="style.css" />
+		<style type="text/css">
+			body{
+				background-image: url(img/back.jpg);
+				background-size:100%;
+			}
+			.all{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 85vh;
+				background-image:url(img/oneback.gif);
+				background-repeat: no-repeat;
+			}
+			.one{
+				background-color:#F0F8FF;
+				width:200px;
+				height:200px;
+				transition: all 5s ease;
+			}
+			.two{
+				background-color:#1E90FF;
+				width:200px;
+				height:200px;
+				transition: all 5s ease;
+			}
+			.three{
+				background-color: aqua;
+				width:200px;
+				height:200px;
+				transition: all 5s ease;
+			}
+			.four{
+				background-color: aquamarine;
+				width:200px;
+				height:200px;
+				transition: all 5s ease;
+			}
+			div.one:hover{
+				width:425px;
+				height:656px;
+				background-image: url(img/one.jpg);
+			}
+			div.two:hover{
+				width:580px;
+				height:649px;
+				background-image: url(img/two.jpg);
+			}
+			div.three:hover{
+				width:580px;
+				height:651px;
+				background-image: url(img/three.jpg);
+			}
+			div.four:hover{
+				width:580px;
+				height:754px;
+				background-image: url(img/four.jpg);
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align="center"><ul>
+			<li><a href="../index.html"><</a></li>
+			<li><a href="web.html" class="active">1</a></li>
+			<li><a href="../web2/web2.html">2</a></li>
+			<li><a href="../index.html">></a></li>
+		</ul></h1>
+		<div class="all">
+			<div class="one 1"></div>
+			<div class="two 1"></div>
+			<div class="three 1"></div>
+			<div class="four 1"></div>
+		</div>
+	</body>
+</html>
